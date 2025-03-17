@@ -27,5 +27,3 @@ there is two threshold on the code
 3. result.csv will be formated as a(minor or major) b(minor or major) angle(the angle of the fiber orientation)
 4. The fiber orientation angle is calculated by the following equation
 $arccos(\frac{minor\_\ of\_\ ellipse}{major\_\ of\_\ ellipse})$ in degree
-
-![csv](./img.png)
