@@ -6,7 +6,7 @@ import csv
 COLOR_THRESHOLD = 170
 NOISE_THRESHOLD = 10
 
-img = cv2.imread('Images/sample2.jpg', 0)
+img = cv2.imread('Images/sample_image.jpg', 0)
 bin_img = img_threshold(img, COLOR_THRESHOLD)
 
 cv2.imwrite("binary_img.png", bin_img)
